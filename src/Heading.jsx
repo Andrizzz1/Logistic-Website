@@ -19,7 +19,7 @@ function WebHeader(){
                 <ul>
                     <Hamburger toggle={setOpen} toggled={open} />
                     <li className="menu-item-with-icon"> <HomeIcon style={{ width: '20px', height: '19px', position:'relative', top:'-2px' }}/>HOME</li>
-                        <select id="myDropdown" name="myOption">
+                        <select id="myDropdownMenu" name="myOption">
                             <option value="option1">SERVICES</option>
                             <option value="option2">Sea Transportation</option>
                             <option value="option3">Air Transportation</option>

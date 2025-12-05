@@ -5,6 +5,10 @@ header{
     position: relative;
 }
 
+h2{
+  color: #CCFFFF;
+}
+
 .List ul li{
     list-style: none;
     cursor: pointer;
@@ -27,7 +31,7 @@ header{
 select option{
   color: black;
 }
-#myDropdown{
+#myDropdown, #myDropdownMenu{
     border: none;
     outline: none;
     background: transparent;
@@ -40,6 +44,7 @@ select option{
 .hamburgermenu{
     display: none;
     margin: 0;
+
 }
 
 
@@ -67,6 +72,7 @@ select option{
 
 .ListHamburger{
   display: none;
+  background-color: #1E2A32;
 
 }
 .menu-item-with-icon{
@@ -76,16 +82,22 @@ select option{
   .ListHamburger{
     display: block;
     height: 100vh;
-    background-color: antiquewhite;
     position: absolute;
     width: 100%;
     transition: all 0.3s ease-in ;
     z-index: 999;
+
 }
 
 .ListHamburger ul li{
     list-style: none;
+    cursor: pointer;
 }
+
+.ListHamburger ul li:hover,#myDropdownMenu:hover{
+  color: white;
+}
+
 
 .ListHamburger ul {
     display: flex;
