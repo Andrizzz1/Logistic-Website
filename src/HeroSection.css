@@ -9,5 +9,106 @@
 }
 
 h1{
-    font-size: 55px;
+    font-size: 65px;
+    color: #F1F5F9;
+}
+
+
+#register_btn{
+    background: transparent;
+    color: white;
+    border: solid 2px white;
+   
+}
+#access_btn, #register_btn{
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#access_btn{
+    border: none;
+}
+
+#access_btn:hover{
+    background-color: hsl(0, 0%, 80%);
+    
+}
+#register_btn:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+.buttons{
+    display: flex;
+    gap: 25px;
+}
+
+@media screen and (max-width: 900px){
+    .HeroTitle{
+        left: 2rem;
+        top: 20rem;
+        align-items: center;
+       
+
+    }
+
+    h1{
+        font-size: 59px;
+
+    }
+
+    .buttons{
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    #access_btn, #register_btn{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    h1{
+        font-size: 49px;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+    .HeroTitle{
+        top: 5rem;
+        left: 0;
+    }
+
+    .buttons{
+        position: absolute;
+        top: 15rem;
+    }
+    
+
+  
+}
+@media screen and (max-width: 420px){
+    #access_btn, #register_btn{
+        font-size: 18px;
+    }
+
+    .buttons{
+        top: 21rem;
+    }
+}
+@media screen and (max-width: 400px){
+
+    .buttons{
+        top: 20rem;
+    }
+    #access_btn, #register_btn{
+        font-size: 16px;
+    }
+
+
+    
+
+  
 }

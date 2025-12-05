@@ -15,14 +15,15 @@ function HeroSection(){
                             typeSpeed={40}
                             backSpeed={50}
                             loop
-                            style={{color:'#22D3EE'}}
+                            style={{color:' #CCFFFF'}}
                         />
                         
                     </em> 
                     <br /> 
-                Delivery Made <span style={{color:'#22D3EE'}}>Clear</span></h1>
-                <div>
-                    <button>Access now</button>   
+                Delivery Made Clear </h1>
+                <div className="buttons">
+                    <button id="access_btn">Access now</button>   
+                    <button id="register_btn">Register now</button>
                 </div>
                             
             </div>

@@ -9,6 +9,9 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.4); 
+    background-blend-mode: darken;
 }
 
 *{
@@ -16,5 +19,17 @@ body{
   font-family: 'Inter', sans-serif;
 }
 
+
+@media screen and (max-width: 900px) {
+  body{
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 400px){
+   body{
+    padding: 0 1px;
+  }
+}
 
 
