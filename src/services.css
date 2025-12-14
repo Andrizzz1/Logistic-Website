@@ -1,0 +1,27 @@
+.ServiesOptions{
+    position: relative;
+    top: 24.5rem;
+    height: 400px;
+}
+.ServiesOptions h2{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.Options{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.imgContainer{
+   overflow: hidden;  
+}
+
+.imgContainer img{
+    transition:transform 0.3s ease;
+}
+.imgContainer img:hover{
+    transform: scale(1.1);
+     
+}
